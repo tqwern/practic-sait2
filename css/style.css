@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+}
+
+.wrapper {
+  width: 1410px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+menu {
+  display: flex;
+  height: 102px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-right: 331px;
+  margin-bottom: 29px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 44px 30px 48px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.glav li:hover {
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.project {
+  display: flex;
+}
+
+.project_text {
+  text-align: left;
+}
+
+.gray_text {
+  color: gray;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  margin-top: 336px;
+}
+
+.black_text {
+  color: black;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.img_home {
+  margin-left: 110px;
+}
+
+.left {
+  border: 1 solid red;
+}
+
+.arrow {
+  display: flex;
+}
+
+.arrow1 {
+  height: 55px;
+  width: 55px;
+  background-color: #ffffff;
+  border: #666666 solid 1px;
+  margin-top: 90px;
+}
+
+.arrow1:hover {
+  background-color: #f2f2f2;
+}
+
+.arrow2 {
+  height: 55px;
+  width: 55px;
+  background-color: #ffffff;
+  border: #666666 solid 1px;
+  margin-left: 23px;
+  margin-top: 90px;
+}
+
+.arrow2:hover {
+  background-color: #f2f2f2;
+}
+
+.arrow3 {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.btn a {
+  font-weight: 400;
+  line-height: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .btn {
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 19px;
+  padding-right: 60px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border: none;
+  margin-top: 304px;
+  padding-left: 360px;
+}
+
+.container .btn:hover {
+  background-color: white;
+}
+
+.about_company {
+  margin-top: 120px;
+  display: flex;
+  height: 435px;
+  width: 1170px;
+  justify-content: center;
+  background: #fbfbfb;
+}
+
+.about_company_img {
+  display: flex;
+}
+
+.about_company_txt {
+  text-align: left;
+  margin: 30px 70px 121px 30px;
+}
+
+.img1 {
+  margin: 30px 30px 140px 100px;
+}
+
+.img2 {
+  margin: 60px 0px 30px 0px;
+}
+
+.img3 {
+  padding-top: 30px;
+}
+
+.about_company_p {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+  padding-bottom: 20px;
+}
+
+.about_company_p p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about_company_txt .btn2 {
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  border: none;
+  margin-top: 20px;
+}
+
+.about_company_txt .btn2:hover {
+  background-color: white;
+}
+
+.main_goals {
+  margin-top: 150px;
+}
+
+.main_1_2 {
+  display: flex;
+}
+
+.header_main_goals {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #BDBDBD;
+  /* padding-bottom: 60px; */
+
+}
+
+.number1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 239px;
+  color: #F2F2F2;
+
+}
+
+.p1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 60px;
+  padding-right: 187px;
+  padding-left: 30px;
+}
+
+.number2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 239px;
+  color: #F2F2F2;
+}
+
+.p2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 60px; 
+  padding-left: 30px;
+}
+
+.our_projects .header {
+
+} 
+
+footer {
+  display: flex;
+  background: #2C2C2C;
+  height: 417px;
+}
+
+.footer_logo {
+  margin: 58px 100px 116px;
+}
+
+.info {
+  margin: 58px 157px 130px 0px;
+}
+
+.info p {
+  padding-bottom: 25px;
+}
+
