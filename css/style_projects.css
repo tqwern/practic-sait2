@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "IBM Plex Sans";
+}
+
+.wrapper {
+    width: 1410px;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+menu {
+    display: flex;
+    height: 102px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-right: 331px;
+    margin-bottom: 29px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 44px 30px 48px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.glav li:hover {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    padding-top: 63px;
+    padding-bottom: 30px;
+
+}
+
+.gray_text {
+    color: gray;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+
+}
+
+.black_text {
+    color: black;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+
+}
+
+
+.about_company {
+    margin-top: 120px;
+    display: flex;
+    height: 435px;
+    width: 1170px;
+    background: #FBFBFB;
+}
+
+.about_company_txt {
+    text-align: left;
+    margin: 30px 70px 121px 30px;
+}
+
+.img1 {
+    margin-left: 150x;
+}
+
+.about_company_p {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    color: #bdbdbd;
+    padding-bottom: 20px;
+}
+
+.about_company_p p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.about_company_txt .btn2 {
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border: none;
+    margin-top: 20px;
+}
+
+.about_company_txt .btn2:hover {
+    background-color: white;
+}
+
+
+
+
+footer {
+    display: flex;
+    background: #2C2C2C;
+    height: 417px;
+    margin-top: 50px;
+}
+
+.footer_logo {
+    margin: 58px 100px 116px;
+}
+
+.footer_info_txt {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer_info a:link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.info {
+    margin: 58px 157px 130px 0px;
+
+}
+
+.info p {
+    padding-bottom: 25px;
+}
+
+.contact {
+    margin: 58px 71px 130px 0px;
+}
+
+.contact p {
+    padding-bottom: 25px;
+}
+
+.social_network {
+    margin: 58px 264px 297px 71px;
+}
+
+.social_network p {
+    padding-bottom: 26px;
+}
+
+.social_icon img {
+    padding-right: 42px;
+}
