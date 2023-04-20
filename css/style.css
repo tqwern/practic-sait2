@@ -8,9 +8,9 @@ body {
 }
 
 .wrapper {
-  width: 1410px;
+  width: 1170px;
   margin: 0 auto;
-  padding-left: 150px;
+  /* padding-left: 150px; */
 }
 
 menu {
@@ -65,7 +65,7 @@ li {
 }
 
 .img_home {
-  margin-left: 110px;
+  padding-left: 69px;
 }
 
 .left {
@@ -263,7 +263,6 @@ a {
   line-height: 64px;
   color: #BDBDBD;
   margin-bottom: 60px;
-  padding-left: 322px;
   /*поменять*/
 }
 
@@ -443,7 +442,7 @@ a {
   font-size: 16px;
   padding: 25px 50px;
   text-decoration: none;
-  margin-left: 1320px;
+  /* margin-left: 1320px; */
 }
 
 .dsds {
@@ -608,10 +607,27 @@ footer {
   padding-right: 42px;
 }
 
-.hr-line {
-	margin: 20px 0;
-	padding: 0;
-	height: 0;
-	border: none;
-	border-top: 1px solid #FFFFFF;
+footer a {
+  text-decoration: none;
+  color: #fbfbfb;
+
 }
+
+.footer_info_txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+.boot {
+  background: #2C2C2C;
+  text-align: center;
+}
+
+.line {
+  border: solid 1px  #FFFFFF;
+  opacity: 0.1;
+}
+
