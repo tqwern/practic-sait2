@@ -1,66 +1,66 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "IBM Plex Sans";
-}
-
-.wrapper {
-  width: 1410px;
-  margin: 0 auto;
-  padding-left: 150px;
-}
-
-menu {
-  display: flex;
-  height: 102px;
-}
-
-.logo {
-  margin-top: 30px;
-  margin-right: 331px;
-  margin-bottom: 29px;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-}
-
-li {
-  margin: 44px 30px 48px;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.glav li:hover {
-  border: 1px solid black;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.heading {
-  padding-top: 63px;
-  padding-bottom: 30px;
-}
-
-.gray_text {
-  color: gray;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 64px;
-}
-
-.black_text {
-  color: black;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 64px;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "IBM Plex Sans";
+  }
+  
+  .wrapper {
+    width: 1410px;
+    margin: 0 auto;
+    padding-left: 150px;
+  }
+  
+  menu {
+    display: flex;
+    height: 102px;
+  }
+  
+  .logo {
+    margin-top: 30px;
+    margin-right: 331px;
+    margin-bottom: 29px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 44px 30px 48px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .glav li:hover {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .heading {
+    padding-top: 63px;
+    padding-bottom: 30px;
+  }
+  
+  .gray_text {
+    color: gray;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  
+  .black_text {
+    color: black;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+  }

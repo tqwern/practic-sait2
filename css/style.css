@@ -24,12 +24,12 @@ menu {
   margin-bottom: 29px;
 }
 
-ul {
+menu ul {
   list-style-type: none;
   display: flex;
 }
 
-li {
+menu li {
   margin: 44px 30px 48px;
   font-weight: 400;
   font-size: 15px;
@@ -266,6 +266,9 @@ a {
   /*поменять*/
 }
 
+
+
+
 .ssd {
   text-align: center;
 
@@ -287,11 +290,9 @@ a {
 }
 
 .block_1 {
-  width: 550px;
-  height: 280px;
   overflow: hidden;
   position: relative;
-  margin-left: 50px;
+  margin-right: 50px;
   background-size: cover;
 }
 
@@ -316,14 +317,13 @@ a {
   -webkit-transform: translatey(-160px);
 }
 
-/* ------------------ */
+
 .block_3 {
-  width: 270px;
-  height: 255px;
   overflow: hidden;
   position: relative;
-  margin-left: 50px;
+  margin-right: 50px;
   background-size: cover;
+  
 }
 
 .block_4 {
@@ -347,7 +347,7 @@ a {
   -webkit-transform: translatey(-160px);
 }
 
-/* --------------- */
+
 .block_5 {
   width: 470px;
   height: 255px;
@@ -385,7 +385,7 @@ a {
   font-size: 30px;
 }
 
-/* --------------------- */
+
 .block_7 {
   width: 370px;
   height: 255px;
@@ -442,7 +442,6 @@ a {
   font-size: 16px;
   padding: 25px 50px;
   text-decoration: none;
-  /* margin-left: 1320px; */
 }
 
 .dsds {
@@ -552,7 +551,7 @@ a {
 
 
 
-footer {
+.footer {
   display: flex;
   background: #2C2C2C;
   height: 417px;
@@ -560,7 +559,7 @@ footer {
 }
 
 .footer_logo {
-  margin: 58px 100px 116px;
+  margin: 58px 250px;
 }
 
 .footer_info_txt {
@@ -579,7 +578,7 @@ footer {
 }
 
 .info {
-  margin: 58px 157px 130px 0px;
+  margin: 58px 200px 0px 0px;
 
 }
 
@@ -588,7 +587,7 @@ footer {
 }
 
 .contact {
-  margin: 58px 71px 130px 0px;
+  margin: 58px 200px 0px 0px;
 }
 
 .contact p {
@@ -596,7 +595,7 @@ footer {
 }
 
 .social_network {
-  margin: 58px 264px 297px 71px;
+  margin: 58px 0px 0px 0px;
 }
 
 .social_network p {
@@ -626,8 +625,16 @@ footer a {
   text-align: center;
 }
 
-.line {
-  border: solid 1px  #FFFFFF;
-  opacity: 0.1;
+.boot p {
+  padding: 24px;
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: rgba(200, 200, 200, 0.396);
 }
 
+.line {
+  border-bottom: 1px solid white;
+  opacity: 0.1;
+}
