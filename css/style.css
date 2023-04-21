@@ -24,12 +24,12 @@ menu {
   margin-bottom: 29px;
 }
 
-menu ul {
+ul {
   list-style-type: none;
   display: flex;
 }
 
-menu li {
+li {
   margin: 44px 30px 48px;
   font-weight: 400;
   font-size: 15px;
@@ -105,6 +105,37 @@ menu li {
   margin-left: 15px;
   margin-top: 15px;
 }
+
+
+
+.button_next {
+  display: flex;
+}
+
+.str {
+  margin-top: 94px;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 30px;
+  color: #333333;
+}
+
+.str1 {
+  margin-top: 94px;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 30px;
+  color: #BDBDBD;
+}
+
+.str2 {
+  margin-top: 94px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #BDBDBD;
+}
+
+
 
 .container {
   position: relative;
@@ -266,9 +297,6 @@ a {
   /*поменять*/
 }
 
-
-
-
 .ssd {
   text-align: center;
 
@@ -290,9 +318,11 @@ a {
 }
 
 .block_1 {
+  width: 550px;
+  height: 280px;
   overflow: hidden;
   position: relative;
-  margin-right: 50px;
+  margin-left: 50px;
   background-size: cover;
 }
 
@@ -317,13 +347,14 @@ a {
   -webkit-transform: translatey(-160px);
 }
 
-
+/* ------------------ */
 .block_3 {
+  width: 270px;
+  height: 255px;
   overflow: hidden;
   position: relative;
-  margin-right: 50px;
+  margin-left: 50px;
   background-size: cover;
-  
 }
 
 .block_4 {
@@ -347,7 +378,7 @@ a {
   -webkit-transform: translatey(-160px);
 }
 
-
+/* --------------- */
 .block_5 {
   width: 470px;
   height: 255px;
@@ -385,7 +416,7 @@ a {
   font-size: 30px;
 }
 
-
+/* --------------------- */
 .block_7 {
   width: 370px;
   height: 255px;
@@ -442,6 +473,7 @@ a {
   font-size: 16px;
   padding: 25px 50px;
   text-decoration: none;
+  /* margin-left: 1320px; */
 }
 
 .dsds {
@@ -638,3 +670,4 @@ color: rgba(200, 200, 200, 0.396);
   border-bottom: 1px solid white;
   opacity: 0.1;
 }
+

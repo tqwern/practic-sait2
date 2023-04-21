@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans";
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 150px;
+}
+
+menu {
+  display: flex;
+  height: 102px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-right: 331px;
+  margin-bottom: 29px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 44px 30px 48px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.glav li:hover {
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+main {
+  height: 800px;
+}
+
+.gray_text {
+  font-weight: 300;
+  color: #BDBDBD;
+  font-size: 64px;
+  margin-top: 92px;
+}
+
+.black_text {
+  font-weight: 700;
+  color: #333333;
+  font-size: 64px;
+}
+
+.project {
+  display: flex;
+}
+
+.d_p {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 34px;
+}
+
+.number {
+  margin-top: 43px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.pochta {
+  margin-top: 52px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.hover-image-scale {
+  margin-top: 48px;
+  margin-left: 34px;
+
+}
+
+.hover-image-scale {
+  display: inline-block; 
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.hover-image-scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; 
+}
+.hover-image-scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+
+.img_map:hover {
+  transform: scale(1.2);
+}
+
+.img_map {
+  transition: 1s;
+  margin-top: 48px;
+  margin-left: 34px;
+}
+
+
+
+
+.button_project {
+  font-weight: 400;
+  margin-top: 72px;
+}
+
+.link_readg {
+  background-color: #020202;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+
+.input {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.poput-open{
+  background-color: #020202;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+.popup-fade {
+display: none;
+}
+
+.popup-fade:before {
+content: '';
+background: #000;
+position: fixed; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%;
+opacity: 0.7;
+z-index: 9999;
+}
+
+.popup {
+position: fixed;
+top: 20%;
+left: 50%;
+padding: 50px;
+width: 400px;
+  height: 500px;
+margin-left: -200px;	
+background: #fff;
+border: 1px solid orange;
+border-radius: 4px; 
+z-index: 99999;
+opacity: 1;	
+}
+.popup-close {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.sms {
+  height: 100px;
+}
+
+
+
+.footer {
+  display: flex;
+  background: #2C2C2C;
+  height: 417px;
+  margin-top: 50px;
+}
+
+.footer_logo {
+  margin: 58px 250px;
+}
+
+.footer_info_txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.footer_info a:link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.info {
+  margin: 58px 200px 0px 0px;
+
+}
+
+.info p {
+  padding-bottom: 25px;
+}
+
+.contact {
+  margin: 58px 200px 0px 0px;
+}
+
+.contact p {
+  padding-bottom: 25px;
+}
+
+.social_network {
+  margin: 58px 0px 0px 0px;
+}
+
+.social_network p {
+  padding-bottom: 26px;
+}
+
+.social_icon img {
+  padding-right: 42px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fbfbfb;
+
+}
+
+.footer_info_txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+
+.boot {
+  background: #2C2C2C;
+  text-align: center;
+}
+
+.boot p {
+  padding: 24px;
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: rgba(200, 200, 200, 0.396);
+}
+
+.line {
+  border-bottom: 1px solid white;
+  opacity: 0.1;
+}
+
+
+
+
+
+
